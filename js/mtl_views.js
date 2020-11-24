@@ -87,7 +87,8 @@ mtlImageView.prototype.StartWait = function()
 
   this.mWaitCursor.className = ".ImgWaitCursor";
 
-  //mWaitCursor.style.animation = 'spin 1s linear infinite';
+  this.mWaitCursor.style.animation = 'spin 1s linear infinite';
+  this.mWaitCursor.style.WebkitAnimation = 'spin 1s linear infinite';
 //  var Angle = 0;
 //  /*var clsThis = this;
 //  var Rotate = function()
